@@ -29,9 +29,11 @@ class ViewController: UIViewController {
         
         if lightOn == true {
             self.messageLabel.text = "White"
+            view.backgroundColor = UIColor.white
         }
         else {
             self.messageLabel.text = "Black"
+            view.backgroundColor = UIColor.black
         }
         lightOn = !lightOn
     }
